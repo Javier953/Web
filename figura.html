@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mi Sitio Web</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="rombo/css/rombo.css">
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Inicio</a>
+          <ul>
+              <li><a href="estudios.html">Estudios</a></li>
+              <li><a href="experiencia.html">Experiencia</a></li>
+          </ul>
+          </li>
+          
+          <li><a href="logos.html">Logos</a></li>
+          <li><a href="figura.html">Figura</a></li>
+          <li><a href="formulario.html">Formulario</a></li>
+          <li><a href="">Base de Datos</a></li>
+          <li><a href="ingreso.html">Encuesta</a></li>
+          
+          
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+<div class="container2">
+<h1> Calcula el area de un rombo </h1>
+<div class="img"><img src="rombo/img/rombo-area.jpg" width="147px" height="188px" ></div><br>
+
+    
+<form name="mio">
+<div class="area">
+        <label>Ingresar diagonal Mayor: D  </label>
+        <input size="5" type="text" name="text" id="diagonalmayor" class="form-input" maxlength="8" onkeypress="return soloNumeros(event)" required><br><br>
+        <label>Ingresar diagonal Menor: d  </label>
+        <input size="5" type="text" id="diagonalmenor" maxlength="8" class="form-input" onkeypress="return soloNumeros(event)" required><br><br>
+        <label>Resultado:   </label>
+        <input size="20" type="text" readonly="true" id="res_area" class="form-input"><br><br>
+        <input class="btn" type="button" value="Calcular" onclick=Area()>
+    
+</div>
+
+<h1> Calcula el perimetro de un rombo </h1>    
+<div class="img"><img src="rombo/img/rombo-perimetro.jpg" width="160px" height="190px"></div><br>
+<div class="perimetro">
+            <label>Ingresar perimetro:  </label>
+            <input size="5" type="text" id="perimetro" maxlength="8" class="form-input" onkeypress="return soloNumeros(event)" required><br><br>
+            <label>Resultado:   </label>
+            <input size="13" type="text" readonly="true" id="res_perim" class="form-input"><br><br>
+            <input class="btn" type="button" value="Calcular" onclick=Perimetro() >
+        
+</div>
+    
+<h1> Calcula el radio de circunferencia de un rombo </h1>    
+    <div class="img"><img src="rombo/img/rombo-radio.jpg" width="160px" height="190px"></div><br>
+<div class="perimetro">
+        <label>Ingresar diagonal Mayor: D  </label>
+        <input size="5" type="text" name="text" id="diagmayor" maxlength="8" class="form-input" onkeypress="return soloNumeros(event)" required><br><br>
+        <label>Ingresar diagonal Menor: d  </label>
+        <input size="5" type="text" id="diagmenor" maxlength="8" class="form-input" onkeypress="return soloNumeros(event)" required><br><br>
+        <label>Ingresar perimetro:  </label>
+        <input size="12" type="text" id="perim" maxlength="8" class="form-input" onkeypress="return soloNumeros(event)" required><br><br>
+        <label>Resultado:   </label>
+        <input size="20" type="text" readonly="true" id="res_radio" class="form-input"><br><br>
+        <input class="btn" type="button" value="Calcular" onclick=Radio()>
+
+</div> 
+</form>
+</div>
+
+    <!--==========================
+      About Section
+    ============================-->
+
+
+  <!--==========================
+    Footer
+  ============================-->
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        
+            <ul>
+                <strong>CORREO ELECTRONICO: </strong>RUPYQUIÑONEZ1994@HOTMAIL.COM 
+            </ul>
+            <ul>
+                <strong>TELEFONO: </strong> 0947856218 
+            </ul>
+            
+            <ul>REDES SOCIALES:
+                 <li><strong>INSTAGRAM: </strong> @RUPYFLACA</li>
+                 <li><strong>FACEBOOK: </strong> RYPY QUIÑONEZ </li>
+                 <li><strong>WHATSAPP: </strong> 0947856218</li>
+            </ul>
+        
+          
+
+          
+
+         
+
+          
+
+        
+      </div>
+    </div>
+</footer><!-- #footer -->
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+ <script src="rombo/js/rombo.js"></script>
+  <script src="rombo/js/validacion.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

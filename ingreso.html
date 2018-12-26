@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mi Sitio Web</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="ingreso/static/css/index.css" th:href="@{/css/index.css}">
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Inicio</a>
+          <ul>
+              <li><a href="estudios.html">Estudios</a></li>
+              <li><a href="experiencia.html">Experiencia</a></li>
+          </ul>
+          </li>
+          
+          <li><a href="logos.html">Logos</a></li>
+          <li><a href="figura.html">Figura</a></li>
+          <li><a href="formulario.html">Formulario</a></li>
+          <li><a href="">Base de Datos</a></li>
+          <li><a href="ingreso.html">Encuesta</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="ingreso/static/img/user.png" th:src="@{/img/user.png}"/>
+                </div>
+                <form class="col-12" action="reg/validar.php" method="post">
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
+                    </div>
+                    <div class="form-group" id="contrasena-group">
+                        <input type="password" class="form-control" placeholder="Contrasena" name="password"/>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Ingresar">
+                </form>
+                <div class="col-12 forgot">
+                    <a href="registro.html">Registrarse</a><br><br>
+                </div>
+                
+		        
+            </div>
+        </div>
+    </div>
+
+    <!--==========================
+      About Section
+    ============================-->
+
+
+  <!--==========================
+    Footer
+  ============================-->
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        
+            <ul>
+                <strong>CORREO ELECTRONICO: </strong>RUPYQUIÑONEZ1994@HOTMAIL.COM 
+            </ul>
+            <ul>
+                <strong>TELEFONO: </strong> 0947856218 
+            </ul>
+            
+            <ul>REDES SOCIALES:
+                 <li><strong>INSTAGRAM: </strong> @RUPYFLACA</li>
+                 <li><strong>FACEBOOK: </strong> RYPY QUIÑONEZ </li>
+                 <li><strong>WHATSAPP: </strong> 0947856218</li>
+            </ul>
+        
+          
+
+          
+
+         
+
+          
+
+        
+      </div>
+    </div>
+</footer><!-- #footer -->
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
